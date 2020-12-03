@@ -1,0 +1,5 @@
+使用的OpenCV版本为4.5.0
+
+点击Release文件夹中的RunMe.bat可以运行图片分割和测试，在最后一个图片中加入了测试选项
+
+Release中src为图片源文件目录，dst为分割结果的目录（FDoG是非极大值抑制后的），truth是BSDS500的ground truth生成的边界图，test为BSDS500的测试原图片。
